@@ -10,6 +10,7 @@
         <main class="container">
             @include('layout.menu')
             <div class="secao1">
+                <img class="icon" src="../../public/img/iconeCorona.png" alt="">
                 <h1 class="tituloSecao1">O que é coronavírus</h1>
                 <p class="paragrafoSecao1">Os coronavírus são uma grande família de vírus comuns em muitas espécies 
                     diferentes de animais, incluindo camelos, gado, gatos e morcegos. Raramente, 

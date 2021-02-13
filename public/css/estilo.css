@@ -58,5 +58,12 @@
 .secao1{
     margin: 5px;
     margin-top: 20px;
-    border: solid 1px rgb(0, 170, 200);
+    border: solid 1px rgb(0, 120, 150);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
 }
