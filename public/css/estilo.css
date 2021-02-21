@@ -1,3 +1,5 @@
+/*estilo padrão*/
+
 *, html, body {
     margin: 0 auto;
     font-family: 'Arial';
@@ -10,8 +12,6 @@ body {
 
 .container {
     width: 77%;
-    border: 1px solid rgba(0, 0, 50, 0.5);
-    border-radius: 15px;
     background-color: white;
 }
 
@@ -68,7 +68,9 @@ body {
     clear: both;
 }
 
-.secao1 {
+/*estilo pagina home*/
+
+.secao1-home {
     margin-top: 20px;
     padding: 5px;
 }
@@ -80,14 +82,14 @@ body {
     margin-left: 20px;
 }
 
-.tituloSecao1 {
+.tituloSecao1-home {
     font-size: 40px;
     margin: 10px 15px;
     color: rgb(12, 12, 144);
 }
 
-.secao1 p {
-    width: 47.5%;
+.secao1-home p {
+    width: 45%;
     margin-top: 5px;
     margin-left: 25px;
     text-align: justify;
@@ -96,7 +98,7 @@ body {
     float: left; 
 }
 
-.imgSecao1 {
+.imgSecao1-home {
     width: 45%;
     height: 350px;
     margin-left: 38px;
@@ -106,28 +108,30 @@ body {
     object-position: 0% 33%;
 }
 
-.tituloSecao2 {
+.tituloSecao2-home {
     font-size: 40px;
     text-align: center;
     margin: 20px 15px;
     color: rgb(12, 12, 144);
 }
 
-.secao2 p {
+.secao2-home p {
     margin: 20px 25px;
     text-align: center;
     line-height: 1.3;
     text-indent: 4rem;
 }
 
-.imgSecao2 {
+.imgSecao2-home {
     width: 100%;
     height: 350px;
     object-fit: cover;
     object-position: 0% 7%;
+    border: 0 solid white;
+    border-radius: 25px;
 }
 
-.img2Secao2 {
+.img2Secao2-home {
     width: 40%;
     height: 350px;
     border: 0 solid rgb(0, 0, 0);
@@ -135,7 +139,7 @@ body {
     margin: 20px 25px;
 }
 
-.p2 {
+.p2-home {
     width: 47.5%;
     margin-top: 20px;
     margin-left: 25px;
@@ -147,12 +151,12 @@ body {
     right: 35px;
 }
 
-.secao3 {
+.secao3-home {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.tituloSecao3 {
+.tituloSecao3-home {
     font-size: 40px;
     text-align: center;
     margin: 10px 15px;
@@ -161,29 +165,29 @@ body {
     color: rgb(12, 12, 144);
 }
 
-.secao3 ul li {
+.secao3-home ul li {
     margin-top: 10px;
     margin-left: 60px;
 }
 
-.secao3 ul li p {
+.secao3-home ul li p {
     font-size: 20px;
 }
 
-.link {
+.link-home {
     text-align: center;
     color: rgb(12, 12, 144);
     margin: 20px 30px;
 }
 
-.tituloSecao4 {
+.tituloSecao4-home {
     font-size: 50px;
     text-align: center;
     margin: 20px 15px;
     color: rgb(144, 12, 12);
 }
 
-.imgSecao4 {
+.imgSecao4-home {
     width: 98%;
     height: 350px;
     object-fit: cover;
@@ -194,14 +198,14 @@ body {
     left: 10px;
 }
 
-.secao4 p {
+.secao4-home p {
     margin: 20px 25px;
     text-align: center;
     line-height: 1.3;
     text-indent: 4rem;
 }
 
-.img2Secao4 {
+.img2Secao4-home {
     width: 48%;
     height: 1110px;
     border: 0 solid white;
@@ -210,7 +214,7 @@ body {
     object-position: 30% 0%;
 }
 
-.img3Secao4 {
+.img3Secao4-home {
     width: 48%;
     height: 1104px;
     border: 0 solid white;
@@ -230,4 +234,514 @@ body {
     position: relative;
     bottom: -111px;
     text-align: center; 
+}
+
+/*estilo pagina de cidades*/
+
+.secao1-cidades {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.tituloSecao1-cidades {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(144, 12, 12);
+}
+
+.secao1-cidades p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.mapa {
+    position: relative;
+    left: 150px;
+}
+
+.secao1-cidades  figure{
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.secao1-cidades  figure img{
+    width: 24%;
+}
+
+.estado2 {
+    position: relative;
+    top: 16px;
+    height: 500px;
+}
+
+.estado3 {
+    position: relative;
+    top: 17px;
+    height: 490px;
+}
+.estado4 {
+    position: relative;
+    bottom: 293px;
+}
+
+.cardTituloAlta {
+    background-color: rgb(186, 67, 79);
+    border: 0 solid white;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 7px;
+}
+
+.tituloAlta {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.alta {
+    margin: 10px 20px;
+}
+
+.alta p b{
+    color: rgb(186, 67, 79);
+    font-size: 20px;
+}
+
+.alta p {
+    font-size: 17px;
+}
+
+.cardTituloEstabilidade {
+    background-color: rgb(235, 220, 51);
+    border: 0 solid white;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 7px;
+}
+
+.tituloEstabilidade {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.estabilidade {
+    margin: 10px 20px;
+}
+
+.estabilidade p b{
+    color: rgb(235, 220, 51);
+    font-size: 20px;
+}
+
+.estabilidade p {
+    font-size: 17px;
+}
+
+.cardTituloQueda {
+    background-color: rgb(78, 144, 229);
+    border: 0 solid white;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 7px;
+}
+
+.tituloQueda {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.queda {
+    margin: 10px 20px;
+}
+
+.queda p b{
+    color: rgb(78, 144, 229);
+    font-size: 20px;
+}
+
+.queda p {
+    font-size: 17px;
+}
+
+.secao3-cidades {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.tituloSecao3-cidades {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(144, 12, 12);
+}
+
+.secao3-cidades p {
+    width: 45%;
+    margin-top: 5px;
+    margin-left: 25px;
+    text-align: justify;
+    line-height: 1.3;
+    text-indent: 4rem;
+    float: left; 
+}
+
+.secao3-cidades p a{
+    text-decoration: none;
+    color: rgb(144, 12, 12); 
+}
+
+.imgSecao3-cidades {
+    width: 45%;
+    height: 350px;
+    margin-left: 38px;
+    border: 0 solid white;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: 0% 33%;
+}
+
+.secao4-cidades {
+    margin: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.listaMaisVul {
+    float: left;
+    position: relative;
+    left: 79px;
+}
+.listaMaisVul h4 {
+    color: rgb(144, 12, 12); 
+    margin: 20px 15px;
+    font-size: 20px;    
+}
+
+
+.listaMaisVul ol li{
+    margin-top: 10px;
+}
+
+.listaMenosVul {
+    position: relative;
+    left: 179px;
+}
+
+.listaMenosVul h4 {
+    color: rgb(144, 12, 12); 
+    margin: 20px 15px;
+    font-size: 20px;    
+}
+
+
+.listaMenosVul ol li{
+    margin-top: 10px;
+}
+
+.secao5-cidades {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.tituloSecao5-cidades {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(12, 12, 144);
+}
+
+.subTitulo-cidades {
+    text-align: center;
+    margin-bottom: 30px !important;
+}
+
+.cardMortes {
+    margin: 10px 50px;
+    text-align: justify;
+}
+
+.cardMortes p, h3 {
+    margin: 10px;
+}
+
+.cardMortes img {
+    position: relative;
+    left: 143px;
+}
+
+/*estilo pagina contato*/
+
+.secao1-contato {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.tituloSecao1-contato {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(144, 12, 12);
+}
+
+.secao1-contato p {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(12, 12, 144);
+}
+
+.secao2-contato {
+        width: 98%;
+        height: 325px;
+        padding: 20px;
+        width: 70%;
+        height: 100%;
+        border: 1px solid rgb(27, 2, 80); 
+        background-color: rgba(255,255,255, 0.77);
+        align-items: center;
+    }
+
+    .secao2-contato input {
+        height: 20px;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px;
+        outline: none;
+        border: 1px solid rgb(27, 2, 180);
+        border-radius: 20px;
+    }
+
+    #email {
+        width: 440px !important;
+    }
+
+    #confirmacao {
+        margin-bottom: 20px;
+    }
+
+    #comentario {
+        width: 380px !important;
+        padding: 5px;
+        outline: none;
+    }
+
+    #enviar {
+        background-color: rgb(27, 2, 180);
+        color: white;
+        position: relative;
+        left: 165px;
+        box-shadow: inset 0px 13px 7px rgba(27, 2, 80, 0.87);
+    }
+
+    .tituloSecao3-contato {
+        font-size: 50px;
+        text-align: center;
+        margin: 20px 15px;
+        color: rgb(144, 12, 12);
+        margin-top: 20px;
+    }
+
+    .secao3-contato {
+        padding: 10px;
+    }
+
+    .secao3msg-contato {
+        font-size: 22px;
+        text-align: center;
+        color: rgb(12, 12, 144);
+    }
+
+    .secao3-contato ul li {
+        list-style: none;
+        margin-top: 15px;
+        color: rgb(60, 60 ,60);
+
+    }
+
+    .secao3-contato ul li i {
+        margin-left: 50px;
+        float: left;
+    }
+
+    #iconContato {
+        width: 50px;
+        height: 50px;
+        color: rgb(60, 60 ,60);
+    }
+
+    /*estilo pagina sobre*/
+
+.secao1-sobre {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.tituloSecao1-sobre {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(144, 12, 12);
+}
+
+.legendaSecao1-sobre {
+    text-align: center;
+    margin: 10px;
+}
+
+.secao1-sobre img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0% 7%;
+    border: 0 solid white;
+    border-radius: 25px;
+}
+
+.p1-sobre {
+    width: 45%;
+    text-align: justify;
+    float: left;
+    margin: 10px;
+}
+
+.p2-sobre {
+    text-align: justify;
+    margin: 10px
+}
+
+.tituloSecao2-sobre {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(12, 12, 144);
+}
+
+.secao2-sobre p {
+    text-align: center;
+    margin: 10px;
+}
+
+.cardSintomas {
+    margin: 10px;
+    list-style: none;
+}
+
+.cardSintomas li{
+    width: 30%;
+    margin: 5px;
+    float: left;
+    border: 1px solid rgb(12, 12, 144);
+    border-radius: 10px;
+}
+
+.cardSintomas li img {
+    width: 80px;
+    height: 80px;
+}
+
+.secao3-sobre {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.tituloSecao3-sobre {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(12, 12, 144);
+}
+
+.secao3-sobre h4 {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.secao3-sobre ul li {
+    margin: 10px;
+}
+
+.tituloSecao4-sobre {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(144, 12, 12);
+}
+
+.secao4-sobre  h4   {
+    text-align: center;
+    margin: 10px;
+}
+
+.secao4-sobre ol {
+    margin: 20px 35px;
+}
+
+.secao4-sobre ol li {
+    margin-bottom: 20px;
+}
+
+.secao4-sobre p {
+    margin-bottom: 20px;
+}
+
+.secao4-sobre  ol li b {
+    color: rgb(50, 50, 50);
+}
+
+/*estilo pagina links*/
+
+.secao1-links {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.tituloSecao1-links {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 15px;
+    color: rgb(144, 12, 12);
+}
+
+.secao1-links p {
+    text-align: center;
+    margin: 10px;
+}
+
+.secao2-links {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.secao2-links ul {
+    list-style: none;
+}
+
+.secao2-links a {
+    text-decoration: none;
+    color: rgb(144, 12, 12);
+}
+
+.secao2-links li{
+    width: 30%;
+    margin: 5px;
+    float: left;
+    border: 1px solid rgb(12, 12, 144);
+    border-radius: 10px;
+}
+
+.secao2-links li img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+.secao2-links ul li p {
+    margin: 10px;
 }
